@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>University Website</title>
+  </head>
+  <body>
+    <!-- Header section -->
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Course.html">COURSE</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Courses</h1>
+    </section>
+    <!-- End Header section -->
+
+    <!-- Course Content -->
+    <section class="course">
+        <h1>Courses we offer</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>An intermediate course is designed for learners who have a basic 
+                    understanding of a subject, but want to take their knowledge to 
+                    a more advanced level. These courses often cover more complex concepts 
+                    and may require more in-depth analysis and application of skills.</p>
+            </div>
+
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>A degree level course is a higher education program that is typically completed 
+                    at a college or university. These courses are designed to provide students with 
+                    a more advanced and specialized level of knowledge and training in a particular 
+                    field of study.</p>
+            </div>
+
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>Pursuing a postgraduate degree can help you specialize in a particular field and 
+                    enhance your expertise. Some popular postgraduate courses include a Master's 
+                    degree in Business Administration (MBA), Master of Science (MSc), and Doctor 
+                    of Philosophy (PhD).</p>
+            </div>
+        </div>
+    </section>
+    <!-- End Course Content -->
+
+    <!-- Facilities Section -->
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Our facilities include spacious classrooms to ensure a comfortable and productive learning environment.</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/library.png">
+                <h3>World Class Library</h3>
+                <p>A world class library is a place of knowledge, culture, and learning
+                    that is recognized for its excellence and diversity of resources.</p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="images/basketball.png">
+                <h3>Largest Play Ground</h3>
+                <p>The university's playground is a popular spot for students to 
+                    take a break from their studies and engage in various outdoor activities.</p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="images/cafeteria.png">
+                <h3>Tasty and Healthy Food</h3>
+                <p>The cafeteria of the university serves a variety of delicious, 
+                    tasty, healthy and affordable meals for students, faculty, and staff.</p>
+            </div>
+        </div>
+    </section>
+    <!-- End Facilities Section -->
+
+
+    <!-- Footer Section -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>EduFord University is a leading institution dedicated to 
+            providing high-quality education and personal development <br /> 
+            opportunities to students from around the world.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made With <i class="fa fa-heart-o"></i> By Easy Tutorials</p>
+    </section>
+    <!-- End Footer Section -->
+
+
+    <!-- JavaScript For toogle Menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks")
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+  </body>
+</html>

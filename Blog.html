@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>University Website</title>
+  </head>
+  <body>
+    <!-- Header section -->
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Course.html">COURSE</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certificate & Online Programs For 2021</h1>
+    </section>
+    <!-- End Header section -->
+
+<!-- Blog Page Content -->
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="images/certificate.jpg">
+            <h2>Our Certificate & Online Programs For 2021</h2>
+            <p>Our Certificate and Online Programs for 2021 offer a variety 
+            of courses that cater to a wide range of interests and career paths.
+            Our programs are designed to be flexible and convenient, allowing 
+            students to study at their own pace and from the comfort of their 
+            own home. Our experienced faculty members are dedicated to providing 
+            a high-quality education and are available to support students 
+            throughout the duration of their program.</p>
+            <br />
+            <p>Our certificate programs offer a comprehensive and in-depth education
+             in a specific field or discipline. These programs are designed to provide 
+             students with the skills and knowledge they need to succeed in their careers.
+             In 2021, we are offering certificate programs in a variety of areas, including business, healthcare, technology, and more.
+             Our online programs provide students with the flexibility to study at their own pace and on their own schedule.
+             With online programs, students can access course materials and lectures from anywhere with an internet connection.
+             Our online programs are taught by experienced instructors who are experts in their fields.
+             In 2021, we are expanding our online program offerings to include new and innovative courses.
+             Our online programs provide students with the opportunity to earn a valuable and respected credential without having to leave their current job or relocate.
+             Our certificate and online programs are a great way for students to further their education and advance their careers.
+             We offer a range of support services for our online students, including academic advising, tutoring, and career services.
+             In 2021, we are introducing new technology and resources to enhance the online learning experience for our students.
+             We are committed to providing high-quality, accessible education to students around the world through our certificate and online programs.</p>
+            <br />
+            <p>Our certificate programs offer a variety of courses in fields 
+            such as business, technology, and healthcare. These programs provide 
+            students with the skills and knowledge needed to excel in their chosen 
+            field. Our online programs offer the convenience of flexible scheduling 
+            and can be completed from anywhere with an internet connection. In 2021, 
+            we are excited to offer even more diverse and in-demand programs for our students.</p>
+            <br />
+            <p>Our Certificate & Online Programs For 2021 offer a range of high-quality 
+            courses and training programs that are designed to help individuals develop 
+            new skills and advance their careers. These programs are flexible and can be 
+            completed at the student's own pace, making them ideal for busy professionals 
+            who need to balance their studies with other commitments. Our programs are 
+            taught by experienced instructors who are experts in their field, ensuring 
+            that students receive the best possible education and support.</p>
+
+            <div class="comment-box">
+                <h3>Leave a comment</h3>
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter name">
+                    <input type="email" placeholder="Enter Email">
+                    <textarea rows="5" placeholder="Your comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                </form>
+            </div>
+        </div>
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>Business Analytics</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Data Science</span>
+                <span>28</span>
+            </div>
+            <div>
+                <span>Machine Learning</span>
+                <span>15</span>
+            </div>
+            <div>
+                <span>Computer Science</span>
+                <span>34</span>
+            </div>
+            <div>
+                <span>Auto CAD</span>
+                <span>42</span>
+            </div>
+            <div>
+                <span>Journalism</span>
+                <span>22</span>
+            </div>
+            <div>
+                <span>Commerce</span>
+                <span>30</span>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Blog Page Content -->
+
+
+    <!-- Footer Section -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>EduFord University is a leading institution dedicated to 
+            providing high-quality education and personal development <br /> 
+            opportunities to students from around the world.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made With <i class="fa fa-heart-o"></i> By Easy Tutorials</p>
+    </section>
+    <!-- End Footer Section -->
+
+
+    <!-- JavaScript For toogle Menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks")
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+  </body>
+</html>
